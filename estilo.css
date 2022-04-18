@@ -1,13 +1,15 @@
 *{box-sizing: border-box;}
+
 body{
+    margin: 0;
     width: 100vw;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 }
-nav{
-    display: flex;
-    background-color: black;
+.spacer {
+
+    height: 85%;
 }
 
 footer {
@@ -15,8 +17,8 @@ footer {
     align-items: center;
     justify-content: center;
     
-    border: 1px solid black;
-    width: 100vw;
+    border-top: 1px solid black;
+    width: inherit;
     height: 15%;
 
 }
@@ -28,9 +30,9 @@ footer {
 footer ul{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
-    font-size: 0.875rem;
+    justify-content: space-between;
+    font-size: rem;
     color:black
 }
 
