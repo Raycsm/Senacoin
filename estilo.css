@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid black;
+    width: 100vw;
+    height: 15%;
+
+}
+
+.footer-wrapper {
+    width: 75%;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 0.875rem;
+    color:black
+}
+
+.social-media {
+
+    margin-left: 1em;
+    border-radius: 20%;
+
+}
