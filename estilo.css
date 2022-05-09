@@ -1,15 +1,29 @@
-*{margin: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     width: 100vw;
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
+
 header{
-    height: 12%;
+    min-height: 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: rgb(255, 255, 255);
     background-color: black;
     padding-left: 6rem;
     padding-right: 6rem;
@@ -72,15 +86,15 @@ header ul li a {
 }
 
 .spacer {
-    height: 85%;
+    height: 73%;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    height: 15%;
+    border-top: 1px solid black;
+    min-height: 12%;
 
 }
 
@@ -100,6 +114,10 @@ footer ul li a {
     color: black;
     text-decoration: none;
 }
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
 .social-media {
 
     margin-left: 1em;
